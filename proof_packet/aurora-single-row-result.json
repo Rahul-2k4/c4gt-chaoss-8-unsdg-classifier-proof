@@ -1,0 +1,22 @@
+{
+  "status": "verified",
+  "date": "2026-05-03",
+  "project_name": "African Storybook",
+  "project_url": "https://www.digitalpublicgoods.net/registry",
+  "sample_text": "Provides open access to picture storybooks in the languages of Africa for children literacy, enjoyment and imagination.",
+  "api_endpoint": "https://aurora-sdg.labs.vu.nl/classifier/classify/elsevier-sdg-multi",
+  "request_payload_shape": {
+    "text": "string"
+  },
+  "top_prediction": {
+    "sdg_code": "4",
+    "sdg_name": "Quality Education",
+    "score": 0.951754928
+  },
+  "observations": [
+    "Direct Aurora request succeeds when payload is exactly {\"text\":\"...\"}.",
+    "Direct payload with title, abstract, and url fields returned 500 Internal Server Error.",
+    "Local backend import currently fails because flask and requests are not installed in the active Python environment."
+  ],
+  "proposal_safe_claim": "I verified one real Aurora classifier sample against a DPG-style project description; the next step is a 10-row benchmark after backend dependency setup."
+}

@@ -1,37 +1,31 @@
-# CHAOSS #8 - UN SDG Classifier
+# CHAOSS #8 - UN-SDG Classifier MVP
 
-**C4GT 2026 Proof Repository**
-
-## Issue
-https://github.com/chaoss/UNSDG-classifier-tool/issues/8
+C4GT 2026 reviewer proof packet.
 
 ## What This Proof Shows
 
-**Proof type:** Aurora 10-row pilot + UI classify/export screenshots + Metrics summary + API base URL blocker note + Benchmark plan.
+- local UI/API proof and JSON export evidence
+- Aurora 10-row DPG pilot with CSV and raw JSON
+- metrics summary, benchmark plan, API base URL blocker note
+- pipeline and benchmark screenshots
 
-- Aurora 10-row pilot proves the classify + export pipeline on real DPG Registry data
-- UI screenshots show classify flow and JSON/CSV export working end-to-end
-- Metrics summary documents achieved-vs-target boundary for the 85% goal
-- API base URL blocker note identifies the localhost dependency and proposes deployment fix
-- Benchmark plan defines the 100-row evaluation scope and source provenance
+## What This Proof Does Not Claim
 
-## What's Not Proven
+- no 100-row benchmark completion
+- no 85% accuracy claim
+- no public deployment
 
-- No upstream PRs merged
-- No full 100-row benchmark run
-- No public deployment confirmed
-- No 85% accuracy claimed
-- No mentor approval
+## Files To Inspect
 
-## Claim Boundary
+- `proof_packet/evidence-pack/`
+- `proof_packet/benchmark-100-row-plan.md`
+- `proof_packet/api-base-url-env-patch.md`
+- `proof_packet/screenshots/`
 
-Local UI/API proof and 10-row Aurora pilot exist. 100-row benchmark and 85% target are not yet achieved.
+## Next Upgrade
 
-## Files
+Run the 100-row benchmark with resumable caching and verify the chosen backend deployment target.
 
-- `MIFI_PROTOTYPE/` — Interactive prototype
-- `proof_packet/` — Aurora pilot, metrics summary, UI screenshots, benchmark plan, screenshots
+## Boundary
 
----
-
-*This is a proof-of-concept for C4GT 2026 application. Not for production use.*
+This repo is application proof, not production code. Claims are limited to the artifacts listed above.

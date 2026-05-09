@@ -1,0 +1,2125 @@
+{
+  "run_date": "2026-05-04",
+  "rows": [
+    {
+      "project_name": "Aam Digital",
+      "response": {
+        "@self": "https://aurora-sdg-classifier.uni-due.de/classify/elsevier-sdg-multi",
+        "text": "Easy-to-use case management software for the social sector that improves the effectiveness and transparency of work with beneficiaries. Offline-first web app tailored for NGOs anywhere in the world.",
+        "model": "elsevier-sdg-multi",
+        "model_name": "Elsevier SDG classifier",
+        "@context": {
+          "sdg": "http://metadata.un.org/sdg/",
+          "product": "https://schema.org/Product",
+          "model": "https://schema.org/Model",
+          "text": "https://schema.org/Text",
+          "icon": "https://schema.org/thumbnail",
+          "prediction": "https://schema.org/Float",
+          "xsd": "http://www.w3.org/2001/XMLSchema#"
+        },
+        "predictions": [
+          {
+            "prediction": 0.0641107485,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/1",
+              "label": "Goal 1",
+              "code": "1",
+              "name": "No poverty",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_1.png"
+            }
+          },
+          {
+            "prediction": 0.00455664564,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/2",
+              "label": "Goal 2",
+              "code": "2",
+              "name": "Zero hunger",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_2.png"
+            }
+          },
+          {
+            "prediction": 0.00806635618,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/3",
+              "label": "Goal 3",
+              "code": "3",
+              "name": "Good health and well-being",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_3.png"
+            }
+          },
+          {
+            "prediction": 0.0233258586,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/4",
+              "label": "Goal 4",
+              "code": "4",
+              "name": "Quality Education",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_4.png"
+            }
+          },
+          {
+            "prediction": 0.00826854,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/5",
+              "label": "Goal 5",
+              "code": "5",
+              "name": "Gender equality",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_5.png"
+            }
+          },
+          {
+            "prediction": 0.00767410547,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/6",
+              "label": "Goal 6",
+              "code": "6",
+              "name": "Clean water and sanitation",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_6.png"
+            }
+          },
+          {
+            "prediction": 0.00962160248,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/7",
+              "label": "Goal 7",
+              "code": "7",
+              "name": "Affordable and clean energy",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_7.png"
+            }
+          },
+          {
+            "prediction": 0.10800688,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/8",
+              "label": "Goal 8",
+              "code": "8",
+              "name": "Decent work and economic growth",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_8.png"
+            }
+          },
+          {
+            "prediction": 0.158417076,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/9",
+              "label": "Goal 9",
+              "code": "9",
+              "name": "Industry, innovation and infrastructure",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_9.png"
+            }
+          },
+          {
+            "prediction": 0.096187368,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/10",
+              "label": "Goal 10",
+              "code": "10",
+              "name": "Reduced inequalities",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_10.png"
+            }
+          },
+          {
+            "prediction": 0.0108548589,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/11",
+              "label": "Goal 11",
+              "code": "11",
+              "name": "Sustainable cities and communities",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_11.png"
+            }
+          },
+          {
+            "prediction": 0.072169736,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/12",
+              "label": "Goal 12",
+              "code": "12",
+              "name": "Responsible consumption and production",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_12.png"
+            }
+          },
+          {
+            "prediction": 0.00319413212,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/13",
+              "label": "Goal 13",
+              "code": "13",
+              "name": "Climate action",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_13.png"
+            }
+          },
+          {
+            "prediction": 0.00351287518,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/14",
+              "label": "Goal 14",
+              "code": "14",
+              "name": "Life below water",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_14.png"
+            }
+          },
+          {
+            "prediction": 0.0110805081,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/15",
+              "label": "Goal 15",
+              "code": "15",
+              "name": "Life in Land",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_15.png"
+            }
+          },
+          {
+            "prediction": 0.410952598,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/16",
+              "label": "Goal 16",
+              "code": "16",
+              "name": "Peace, Justice and strong institutions",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_16.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "project_name": "African Storybook",
+      "response": {
+        "@self": "https://aurora-sdg-classifier.uni-due.de/classify/elsevier-sdg-multi",
+        "text": "Provides open access to picture storybooks in the languages of Africa for children's literacy, enjoyment and imagination.",
+        "model": "elsevier-sdg-multi",
+        "model_name": "Elsevier SDG classifier",
+        "@context": {
+          "sdg": "http://metadata.un.org/sdg/",
+          "product": "https://schema.org/Product",
+          "model": "https://schema.org/Model",
+          "text": "https://schema.org/Text",
+          "icon": "https://schema.org/thumbnail",
+          "prediction": "https://schema.org/Float",
+          "xsd": "http://www.w3.org/2001/XMLSchema#"
+        },
+        "predictions": [
+          {
+            "prediction": 0.00341147464,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/1",
+              "label": "Goal 1",
+              "code": "1",
+              "name": "No poverty",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_1.png"
+            }
+          },
+          {
+            "prediction": 0.00117975625,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/2",
+              "label": "Goal 2",
+              "code": "2",
+              "name": "Zero hunger",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_2.png"
+            }
+          },
+          {
+            "prediction": 0.00376199232,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/3",
+              "label": "Goal 3",
+              "code": "3",
+              "name": "Good health and well-being",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_3.png"
+            }
+          },
+          {
+            "prediction": 0.946982741,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/4",
+              "label": "Goal 4",
+              "code": "4",
+              "name": "Quality Education",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_4.png"
+            }
+          },
+          {
+            "prediction": 0.00750933168,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/5",
+              "label": "Goal 5",
+              "code": "5",
+              "name": "Gender equality",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_5.png"
+            }
+          },
+          {
+            "prediction": 0.00120477693,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/6",
+              "label": "Goal 6",
+              "code": "6",
+              "name": "Clean water and sanitation",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_6.png"
+            }
+          },
+          {
+            "prediction": 0.00135948753,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/7",
+              "label": "Goal 7",
+              "code": "7",
+              "name": "Affordable and clean energy",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_7.png"
+            }
+          },
+          {
+            "prediction": 0.0049019116,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/8",
+              "label": "Goal 8",
+              "code": "8",
+              "name": "Decent work and economic growth",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_8.png"
+            }
+          },
+          {
+            "prediction": 0.0037654147,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/9",
+              "label": "Goal 9",
+              "code": "9",
+              "name": "Industry, innovation and infrastructure",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_9.png"
+            }
+          },
+          {
+            "prediction": 0.0124448789,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/10",
+              "label": "Goal 10",
+              "code": "10",
+              "name": "Reduced inequalities",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_10.png"
+            }
+          },
+          {
+            "prediction": 0.00133280049,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/11",
+              "label": "Goal 11",
+              "code": "11",
+              "name": "Sustainable cities and communities",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_11.png"
+            }
+          },
+          {
+            "prediction": 0.00169738254,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/12",
+              "label": "Goal 12",
+              "code": "12",
+              "name": "Responsible consumption and production",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_12.png"
+            }
+          },
+          {
+            "prediction": 0.000845834962,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/13",
+              "label": "Goal 13",
+              "code": "13",
+              "name": "Climate action",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_13.png"
+            }
+          },
+          {
+            "prediction": 0.000552975456,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/14",
+              "label": "Goal 14",
+              "code": "14",
+              "name": "Life below water",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_14.png"
+            }
+          },
+          {
+            "prediction": 0.00116248929,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/15",
+              "label": "Goal 15",
+              "code": "15",
+              "name": "Life in Land",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_15.png"
+            }
+          },
+          {
+            "prediction": 0.00788673,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/16",
+              "label": "Goal 16",
+              "code": "16",
+              "name": "Peace, Justice and strong institutions",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_16.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "project_name": "Apache Fineract",
+      "response": {
+        "@self": "https://aurora-sdg-classifier.uni-due.de/classify/elsevier-sdg-multi",
+        "text": "Reliable, robust, and affordable solution for entrepreneurs, financial institutions, and service providers to offer financial services to underbanked and unbanked people.",
+        "model": "elsevier-sdg-multi",
+        "model_name": "Elsevier SDG classifier",
+        "@context": {
+          "sdg": "http://metadata.un.org/sdg/",
+          "product": "https://schema.org/Product",
+          "model": "https://schema.org/Model",
+          "text": "https://schema.org/Text",
+          "icon": "https://schema.org/thumbnail",
+          "prediction": "https://schema.org/Float",
+          "xsd": "http://www.w3.org/2001/XMLSchema#"
+        },
+        "predictions": [
+          {
+            "prediction": 0.254120737,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/1",
+              "label": "Goal 1",
+              "code": "1",
+              "name": "No poverty",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_1.png"
+            }
+          },
+          {
+            "prediction": 0.00295232679,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/2",
+              "label": "Goal 2",
+              "code": "2",
+              "name": "Zero hunger",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_2.png"
+            }
+          },
+          {
+            "prediction": 0.00562236272,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/3",
+              "label": "Goal 3",
+              "code": "3",
+              "name": "Good health and well-being",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_3.png"
+            }
+          },
+          {
+            "prediction": 0.0057461774,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/4",
+              "label": "Goal 4",
+              "code": "4",
+              "name": "Quality Education",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_4.png"
+            }
+          },
+          {
+            "prediction": 0.00756063079,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/5",
+              "label": "Goal 5",
+              "code": "5",
+              "name": "Gender equality",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_5.png"
+            }
+          },
+          {
+            "prediction": 0.00231878133,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/6",
+              "label": "Goal 6",
+              "code": "6",
+              "name": "Clean water and sanitation",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_6.png"
+            }
+          },
+          {
+            "prediction": 0.00356361177,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/7",
+              "label": "Goal 7",
+              "code": "7",
+              "name": "Affordable and clean energy",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_7.png"
+            }
+          },
+          {
+            "prediction": 0.120081596,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/8",
+              "label": "Goal 8",
+              "code": "8",
+              "name": "Decent work and economic growth",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_8.png"
+            }
+          },
+          {
+            "prediction": 0.0315697342,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/9",
+              "label": "Goal 9",
+              "code": "9",
+              "name": "Industry, innovation and infrastructure",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_9.png"
+            }
+          },
+          {
+            "prediction": 0.511745512,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/10",
+              "label": "Goal 10",
+              "code": "10",
+              "name": "Reduced inequalities",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_10.png"
+            }
+          },
+          {
+            "prediction": 0.00625092536,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/11",
+              "label": "Goal 11",
+              "code": "11",
+              "name": "Sustainable cities and communities",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_11.png"
+            }
+          },
+          {
+            "prediction": 0.00784514751,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/12",
+              "label": "Goal 12",
+              "code": "12",
+              "name": "Responsible consumption and production",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_12.png"
+            }
+          },
+          {
+            "prediction": 0.00307876081,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/13",
+              "label": "Goal 13",
+              "code": "13",
+              "name": "Climate action",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_13.png"
+            }
+          },
+          {
+            "prediction": 0.00353389047,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/14",
+              "label": "Goal 14",
+              "code": "14",
+              "name": "Life below water",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_14.png"
+            }
+          },
+          {
+            "prediction": 0.00449935719,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/15",
+              "label": "Goal 15",
+              "code": "15",
+              "name": "Life in Land",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_15.png"
+            }
+          },
+          {
+            "prediction": 0.0295104608,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/16",
+              "label": "Goal 16",
+              "code": "16",
+              "name": "Peace, Justice and strong institutions",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_16.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "project_name": "Bahmni",
+      "response": {
+        "@self": "https://aurora-sdg-classifier.uni-due.de/classify/elsevier-sdg-multi",
+        "text": "Open Source Comprehensive Electronic Medical Record and Information Management System built on OpenMRS, OpenELIS, Dcm4chee and Odoo for clinics and hospitals in low resource environments.",
+        "model": "elsevier-sdg-multi",
+        "model_name": "Elsevier SDG classifier",
+        "@context": {
+          "sdg": "http://metadata.un.org/sdg/",
+          "product": "https://schema.org/Product",
+          "model": "https://schema.org/Model",
+          "text": "https://schema.org/Text",
+          "icon": "https://schema.org/thumbnail",
+          "prediction": "https://schema.org/Float",
+          "xsd": "http://www.w3.org/2001/XMLSchema#"
+        },
+        "predictions": [
+          {
+            "prediction": 0.0306768101,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/1",
+              "label": "Goal 1",
+              "code": "1",
+              "name": "No poverty",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_1.png"
+            }
+          },
+          {
+            "prediction": 0.011293049,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/2",
+              "label": "Goal 2",
+              "code": "2",
+              "name": "Zero hunger",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_2.png"
+            }
+          },
+          {
+            "prediction": 0.12452662,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/3",
+              "label": "Goal 3",
+              "code": "3",
+              "name": "Good health and well-being",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_3.png"
+            }
+          },
+          {
+            "prediction": 0.0555498,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/4",
+              "label": "Goal 4",
+              "code": "4",
+              "name": "Quality Education",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_4.png"
+            }
+          },
+          {
+            "prediction": 0.00384516711,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/5",
+              "label": "Goal 5",
+              "code": "5",
+              "name": "Gender equality",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_5.png"
+            }
+          },
+          {
+            "prediction": 0.0475794934,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/6",
+              "label": "Goal 6",
+              "code": "6",
+              "name": "Clean water and sanitation",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_6.png"
+            }
+          },
+          {
+            "prediction": 0.0987700373,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/7",
+              "label": "Goal 7",
+              "code": "7",
+              "name": "Affordable and clean energy",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_7.png"
+            }
+          },
+          {
+            "prediction": 0.0194146838,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/8",
+              "label": "Goal 8",
+              "code": "8",
+              "name": "Decent work and economic growth",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_8.png"
+            }
+          },
+          {
+            "prediction": 0.262971163,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/9",
+              "label": "Goal 9",
+              "code": "9",
+              "name": "Industry, innovation and infrastructure",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_9.png"
+            }
+          },
+          {
+            "prediction": 0.0501064286,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/10",
+              "label": "Goal 10",
+              "code": "10",
+              "name": "Reduced inequalities",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_10.png"
+            }
+          },
+          {
+            "prediction": 0.0650176182,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/11",
+              "label": "Goal 11",
+              "code": "11",
+              "name": "Sustainable cities and communities",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_11.png"
+            }
+          },
+          {
+            "prediction": 0.100727841,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/12",
+              "label": "Goal 12",
+              "code": "12",
+              "name": "Responsible consumption and production",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_12.png"
+            }
+          },
+          {
+            "prediction": 0.00387407979,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/13",
+              "label": "Goal 13",
+              "code": "13",
+              "name": "Climate action",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_13.png"
+            }
+          },
+          {
+            "prediction": 0.0139957229,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/14",
+              "label": "Goal 14",
+              "code": "14",
+              "name": "Life below water",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_14.png"
+            }
+          },
+          {
+            "prediction": 0.0544823967,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/15",
+              "label": "Goal 15",
+              "code": "15",
+              "name": "Life in Land",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_15.png"
+            }
+          },
+          {
+            "prediction": 0.0571690425,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/16",
+              "label": "Goal 16",
+              "code": "16",
+              "name": "Peace, Justice and strong institutions",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_16.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "project_name": "CKAN",
+      "response": {
+        "@self": "https://aurora-sdg-classifier.uni-due.de/classify/elsevier-sdg-multi",
+        "text": "Open Source Data Management System to build data portals, trusted by many portals and focused on extensibility and integration.",
+        "model": "elsevier-sdg-multi",
+        "model_name": "Elsevier SDG classifier",
+        "@context": {
+          "sdg": "http://metadata.un.org/sdg/",
+          "product": "https://schema.org/Product",
+          "model": "https://schema.org/Model",
+          "text": "https://schema.org/Text",
+          "icon": "https://schema.org/thumbnail",
+          "prediction": "https://schema.org/Float",
+          "xsd": "http://www.w3.org/2001/XMLSchema#"
+        },
+        "predictions": [
+          {
+            "prediction": 0.00577577576,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/1",
+              "label": "Goal 1",
+              "code": "1",
+              "name": "No poverty",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_1.png"
+            }
+          },
+          {
+            "prediction": 0.00371353072,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/2",
+              "label": "Goal 2",
+              "code": "2",
+              "name": "Zero hunger",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_2.png"
+            }
+          },
+          {
+            "prediction": 0.0292179,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/3",
+              "label": "Goal 3",
+              "code": "3",
+              "name": "Good health and well-being",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_3.png"
+            }
+          },
+          {
+            "prediction": 0.0202957969,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/4",
+              "label": "Goal 4",
+              "code": "4",
+              "name": "Quality Education",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_4.png"
+            }
+          },
+          {
+            "prediction": 0.0037674983,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/5",
+              "label": "Goal 5",
+              "code": "5",
+              "name": "Gender equality",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_5.png"
+            }
+          },
+          {
+            "prediction": 0.0146126226,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/6",
+              "label": "Goal 6",
+              "code": "6",
+              "name": "Clean water and sanitation",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_6.png"
+            }
+          },
+          {
+            "prediction": 0.254839242,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/7",
+              "label": "Goal 7",
+              "code": "7",
+              "name": "Affordable and clean energy",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_7.png"
+            }
+          },
+          {
+            "prediction": 0.00599245168,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/8",
+              "label": "Goal 8",
+              "code": "8",
+              "name": "Decent work and economic growth",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_8.png"
+            }
+          },
+          {
+            "prediction": 0.568605185,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/9",
+              "label": "Goal 9",
+              "code": "9",
+              "name": "Industry, innovation and infrastructure",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_9.png"
+            }
+          },
+          {
+            "prediction": 0.0099297855,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/10",
+              "label": "Goal 10",
+              "code": "10",
+              "name": "Reduced inequalities",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_10.png"
+            }
+          },
+          {
+            "prediction": 0.0190954525,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/11",
+              "label": "Goal 11",
+              "code": "11",
+              "name": "Sustainable cities and communities",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_11.png"
+            }
+          },
+          {
+            "prediction": 0.0229074471,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/12",
+              "label": "Goal 12",
+              "code": "12",
+              "name": "Responsible consumption and production",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_12.png"
+            }
+          },
+          {
+            "prediction": 0.00267129648,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/13",
+              "label": "Goal 13",
+              "code": "13",
+              "name": "Climate action",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_13.png"
+            }
+          },
+          {
+            "prediction": 0.0103859017,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/14",
+              "label": "Goal 14",
+              "code": "14",
+              "name": "Life below water",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_14.png"
+            }
+          },
+          {
+            "prediction": 0.0104273139,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/15",
+              "label": "Goal 15",
+              "code": "15",
+              "name": "Life in Land",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_15.png"
+            }
+          },
+          {
+            "prediction": 0.0177628808,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/16",
+              "label": "Goal 16",
+              "code": "16",
+              "name": "Peace, Justice and strong institutions",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_16.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "project_name": "ClimWeb",
+      "response": {
+        "@self": "https://aurora-sdg-classifier.uni-due.de/classify/elsevier-sdg-multi",
+        "text": "Open-source platform enabling climate and environmental institutions to deliver services with data visualizations, satellite imagery, CAP alerts, and digital marketing.",
+        "model": "elsevier-sdg-multi",
+        "model_name": "Elsevier SDG classifier",
+        "@context": {
+          "sdg": "http://metadata.un.org/sdg/",
+          "product": "https://schema.org/Product",
+          "model": "https://schema.org/Model",
+          "text": "https://schema.org/Text",
+          "icon": "https://schema.org/thumbnail",
+          "prediction": "https://schema.org/Float",
+          "xsd": "http://www.w3.org/2001/XMLSchema#"
+        },
+        "predictions": [
+          {
+            "prediction": 0.00343560288,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/1",
+              "label": "Goal 1",
+              "code": "1",
+              "name": "No poverty",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_1.png"
+            }
+          },
+          {
+            "prediction": 0.00736627495,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/2",
+              "label": "Goal 2",
+              "code": "2",
+              "name": "Zero hunger",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_2.png"
+            }
+          },
+          {
+            "prediction": 0.002249863,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/3",
+              "label": "Goal 3",
+              "code": "3",
+              "name": "Good health and well-being",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_3.png"
+            }
+          },
+          {
+            "prediction": 0.0120174009,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/4",
+              "label": "Goal 4",
+              "code": "4",
+              "name": "Quality Education",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_4.png"
+            }
+          },
+          {
+            "prediction": 0.00188561063,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/5",
+              "label": "Goal 5",
+              "code": "5",
+              "name": "Gender equality",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_5.png"
+            }
+          },
+          {
+            "prediction": 0.00697516976,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/6",
+              "label": "Goal 6",
+              "code": "6",
+              "name": "Clean water and sanitation",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_6.png"
+            }
+          },
+          {
+            "prediction": 0.0207957122,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/7",
+              "label": "Goal 7",
+              "code": "7",
+              "name": "Affordable and clean energy",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_7.png"
+            }
+          },
+          {
+            "prediction": 0.0536186248,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/8",
+              "label": "Goal 8",
+              "code": "8",
+              "name": "Decent work and economic growth",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_8.png"
+            }
+          },
+          {
+            "prediction": 0.0308103636,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/9",
+              "label": "Goal 9",
+              "code": "9",
+              "name": "Industry, innovation and infrastructure",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_9.png"
+            }
+          },
+          {
+            "prediction": 0.00329376408,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/10",
+              "label": "Goal 10",
+              "code": "10",
+              "name": "Reduced inequalities",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_10.png"
+            }
+          },
+          {
+            "prediction": 0.0152844703,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/11",
+              "label": "Goal 11",
+              "code": "11",
+              "name": "Sustainable cities and communities",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_11.png"
+            }
+          },
+          {
+            "prediction": 0.158623785,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/12",
+              "label": "Goal 12",
+              "code": "12",
+              "name": "Responsible consumption and production",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_12.png"
+            }
+          },
+          {
+            "prediction": 0.633245528,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/13",
+              "label": "Goal 13",
+              "code": "13",
+              "name": "Climate action",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_13.png"
+            }
+          },
+          {
+            "prediction": 0.0113977883,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/14",
+              "label": "Goal 14",
+              "code": "14",
+              "name": "Life below water",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_14.png"
+            }
+          },
+          {
+            "prediction": 0.0323637351,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/15",
+              "label": "Goal 15",
+              "code": "15",
+              "name": "Life in Land",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_15.png"
+            }
+          },
+          {
+            "prediction": 0.00663624192,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/16",
+              "label": "Goal 16",
+              "code": "16",
+              "name": "Peace, Justice and strong institutions",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_16.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "project_name": "CodeCarbon",
+      "response": {
+        "@self": "https://aurora-sdg-classifier.uni-due.de/classify/elsevier-sdg-multi",
+        "text": "Python package that estimates hardware electricity power consumption and carbon emissions produced while running code.",
+        "model": "elsevier-sdg-multi",
+        "model_name": "Elsevier SDG classifier",
+        "@context": {
+          "sdg": "http://metadata.un.org/sdg/",
+          "product": "https://schema.org/Product",
+          "model": "https://schema.org/Model",
+          "text": "https://schema.org/Text",
+          "icon": "https://schema.org/thumbnail",
+          "prediction": "https://schema.org/Float",
+          "xsd": "http://www.w3.org/2001/XMLSchema#"
+        },
+        "predictions": [
+          {
+            "prediction": 0.00264241477,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/1",
+              "label": "Goal 1",
+              "code": "1",
+              "name": "No poverty",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_1.png"
+            }
+          },
+          {
+            "prediction": 0.00376308942,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/2",
+              "label": "Goal 2",
+              "code": "2",
+              "name": "Zero hunger",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_2.png"
+            }
+          },
+          {
+            "prediction": 0.00154908607,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/3",
+              "label": "Goal 3",
+              "code": "3",
+              "name": "Good health and well-being",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_3.png"
+            }
+          },
+          {
+            "prediction": 0.00274140667,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/4",
+              "label": "Goal 4",
+              "code": "4",
+              "name": "Quality Education",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_4.png"
+            }
+          },
+          {
+            "prediction": 0.00223795744,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/5",
+              "label": "Goal 5",
+              "code": "5",
+              "name": "Gender equality",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_5.png"
+            }
+          },
+          {
+            "prediction": 0.00248273555,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/6",
+              "label": "Goal 6",
+              "code": "6",
+              "name": "Clean water and sanitation",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_6.png"
+            }
+          },
+          {
+            "prediction": 0.035401307,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/7",
+              "label": "Goal 7",
+              "code": "7",
+              "name": "Affordable and clean energy",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_7.png"
+            }
+          },
+          {
+            "prediction": 0.0158886667,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/8",
+              "label": "Goal 8",
+              "code": "8",
+              "name": "Decent work and economic growth",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_8.png"
+            }
+          },
+          {
+            "prediction": 0.0124276085,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/9",
+              "label": "Goal 9",
+              "code": "9",
+              "name": "Industry, innovation and infrastructure",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_9.png"
+            }
+          },
+          {
+            "prediction": 0.00272149872,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/10",
+              "label": "Goal 10",
+              "code": "10",
+              "name": "Reduced inequalities",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_10.png"
+            }
+          },
+          {
+            "prediction": 0.00433185324,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/11",
+              "label": "Goal 11",
+              "code": "11",
+              "name": "Sustainable cities and communities",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_11.png"
+            }
+          },
+          {
+            "prediction": 0.0208343416,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/12",
+              "label": "Goal 12",
+              "code": "12",
+              "name": "Responsible consumption and production",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_12.png"
+            }
+          },
+          {
+            "prediction": 0.881452858,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/13",
+              "label": "Goal 13",
+              "code": "13",
+              "name": "Climate action",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_13.png"
+            }
+          },
+          {
+            "prediction": 0.00431057857,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/14",
+              "label": "Goal 14",
+              "code": "14",
+              "name": "Life below water",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_14.png"
+            }
+          },
+          {
+            "prediction": 0.00561159803,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/15",
+              "label": "Goal 15",
+              "code": "15",
+              "name": "Life in Land",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_15.png"
+            }
+          },
+          {
+            "prediction": 0.00160311838,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/16",
+              "label": "Goal 16",
+              "code": "16",
+              "name": "Peace, Justice and strong institutions",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_16.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "project_name": "CommCare",
+      "response": {
+        "@self": "https://aurora-sdg-classifier.uni-due.de/classify/elsevier-sdg-multi",
+        "text": "Digital platform for frontline work that enables organizations to build digital solutions to deliver services and collect data.",
+        "model": "elsevier-sdg-multi",
+        "model_name": "Elsevier SDG classifier",
+        "@context": {
+          "sdg": "http://metadata.un.org/sdg/",
+          "product": "https://schema.org/Product",
+          "model": "https://schema.org/Model",
+          "text": "https://schema.org/Text",
+          "icon": "https://schema.org/thumbnail",
+          "prediction": "https://schema.org/Float",
+          "xsd": "http://www.w3.org/2001/XMLSchema#"
+        },
+        "predictions": [
+          {
+            "prediction": 0.00504769944,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/1",
+              "label": "Goal 1",
+              "code": "1",
+              "name": "No poverty",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_1.png"
+            }
+          },
+          {
+            "prediction": 0.0019955826,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/2",
+              "label": "Goal 2",
+              "code": "2",
+              "name": "Zero hunger",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_2.png"
+            }
+          },
+          {
+            "prediction": 0.00891706347,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/3",
+              "label": "Goal 3",
+              "code": "3",
+              "name": "Good health and well-being",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_3.png"
+            }
+          },
+          {
+            "prediction": 0.00792284403,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/4",
+              "label": "Goal 4",
+              "code": "4",
+              "name": "Quality Education",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_4.png"
+            }
+          },
+          {
+            "prediction": 0.00186694739,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/5",
+              "label": "Goal 5",
+              "code": "5",
+              "name": "Gender equality",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_5.png"
+            }
+          },
+          {
+            "prediction": 0.00627511693,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/6",
+              "label": "Goal 6",
+              "code": "6",
+              "name": "Clean water and sanitation",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_6.png"
+            }
+          },
+          {
+            "prediction": 0.0681748241,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/7",
+              "label": "Goal 7",
+              "code": "7",
+              "name": "Affordable and clean energy",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_7.png"
+            }
+          },
+          {
+            "prediction": 0.00864371657,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/8",
+              "label": "Goal 8",
+              "code": "8",
+              "name": "Decent work and economic growth",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_8.png"
+            }
+          },
+          {
+            "prediction": 0.814091682,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/9",
+              "label": "Goal 9",
+              "code": "9",
+              "name": "Industry, innovation and infrastructure",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_9.png"
+            }
+          },
+          {
+            "prediction": 0.0066297,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/10",
+              "label": "Goal 10",
+              "code": "10",
+              "name": "Reduced inequalities",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_10.png"
+            }
+          },
+          {
+            "prediction": 0.0117432903,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/11",
+              "label": "Goal 11",
+              "code": "11",
+              "name": "Sustainable cities and communities",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_11.png"
+            }
+          },
+          {
+            "prediction": 0.0266654622,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/12",
+              "label": "Goal 12",
+              "code": "12",
+              "name": "Responsible consumption and production",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_12.png"
+            }
+          },
+          {
+            "prediction": 0.00176976202,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/13",
+              "label": "Goal 13",
+              "code": "13",
+              "name": "Climate action",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_13.png"
+            }
+          },
+          {
+            "prediction": 0.00517984852,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/14",
+              "label": "Goal 14",
+              "code": "14",
+              "name": "Life below water",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_14.png"
+            }
+          },
+          {
+            "prediction": 0.00560158212,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/15",
+              "label": "Goal 15",
+              "code": "15",
+              "name": "Life in Land",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_15.png"
+            }
+          },
+          {
+            "prediction": 0.0194749311,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/16",
+              "label": "Goal 16",
+              "code": "16",
+              "name": "Peace, Justice and strong institutions",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_16.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "project_name": "Community Health Toolkit",
+      "response": {
+        "@self": "https://aurora-sdg-classifier.uni-due.de/classify/elsevier-sdg-multi",
+        "text": "License-free open-source digital health platform with frameworks, applications, resources, and community practice for electronic community health information systems.",
+        "model": "elsevier-sdg-multi",
+        "model_name": "Elsevier SDG classifier",
+        "@context": {
+          "sdg": "http://metadata.un.org/sdg/",
+          "product": "https://schema.org/Product",
+          "model": "https://schema.org/Model",
+          "text": "https://schema.org/Text",
+          "icon": "https://schema.org/thumbnail",
+          "prediction": "https://schema.org/Float",
+          "xsd": "http://www.w3.org/2001/XMLSchema#"
+        },
+        "predictions": [
+          {
+            "prediction": 0.0414472669,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/1",
+              "label": "Goal 1",
+              "code": "1",
+              "name": "No poverty",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_1.png"
+            }
+          },
+          {
+            "prediction": 0.00440494576,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/2",
+              "label": "Goal 2",
+              "code": "2",
+              "name": "Zero hunger",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_2.png"
+            }
+          },
+          {
+            "prediction": 0.144305989,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/3",
+              "label": "Goal 3",
+              "code": "3",
+              "name": "Good health and well-being",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_3.png"
+            }
+          },
+          {
+            "prediction": 0.0394781716,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/4",
+              "label": "Goal 4",
+              "code": "4",
+              "name": "Quality Education",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_4.png"
+            }
+          },
+          {
+            "prediction": 0.0232190154,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/5",
+              "label": "Goal 5",
+              "code": "5",
+              "name": "Gender equality",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_5.png"
+            }
+          },
+          {
+            "prediction": 0.00730494549,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/6",
+              "label": "Goal 6",
+              "code": "6",
+              "name": "Clean water and sanitation",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_6.png"
+            }
+          },
+          {
+            "prediction": 0.0137366652,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/7",
+              "label": "Goal 7",
+              "code": "7",
+              "name": "Affordable and clean energy",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_7.png"
+            }
+          },
+          {
+            "prediction": 0.0123534575,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/8",
+              "label": "Goal 8",
+              "code": "8",
+              "name": "Decent work and economic growth",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_8.png"
+            }
+          },
+          {
+            "prediction": 0.0325060412,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/9",
+              "label": "Goal 9",
+              "code": "9",
+              "name": "Industry, innovation and infrastructure",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_9.png"
+            }
+          },
+          {
+            "prediction": 0.251190305,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/10",
+              "label": "Goal 10",
+              "code": "10",
+              "name": "Reduced inequalities",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_10.png"
+            }
+          },
+          {
+            "prediction": 0.0207459386,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/11",
+              "label": "Goal 11",
+              "code": "11",
+              "name": "Sustainable cities and communities",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_11.png"
+            }
+          },
+          {
+            "prediction": 0.00687946053,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/12",
+              "label": "Goal 12",
+              "code": "12",
+              "name": "Responsible consumption and production",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_12.png"
+            }
+          },
+          {
+            "prediction": 0.00248018536,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/13",
+              "label": "Goal 13",
+              "code": "13",
+              "name": "Climate action",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_13.png"
+            }
+          },
+          {
+            "prediction": 0.00237584487,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/14",
+              "label": "Goal 14",
+              "code": "14",
+              "name": "Life below water",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_14.png"
+            }
+          },
+          {
+            "prediction": 0.00382951484,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/15",
+              "label": "Goal 15",
+              "code": "15",
+              "name": "Life in Land",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_15.png"
+            }
+          },
+          {
+            "prediction": 0.393742263,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/16",
+              "label": "Goal 16",
+              "code": "16",
+              "name": "Peace, Justice and strong institutions",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_16.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "project_name": "Zamba",
+      "response": {
+        "@self": "https://aurora-sdg-classifier.uni-due.de/classify/elsevier-sdg-multi",
+        "text": "AI tools for wildlife monitoring with camera trap videos. Command-line Python tool that identifies species in camera trap videos from central Africa.",
+        "model": "elsevier-sdg-multi",
+        "model_name": "Elsevier SDG classifier",
+        "@context": {
+          "sdg": "http://metadata.un.org/sdg/",
+          "product": "https://schema.org/Product",
+          "model": "https://schema.org/Model",
+          "text": "https://schema.org/Text",
+          "icon": "https://schema.org/thumbnail",
+          "prediction": "https://schema.org/Float",
+          "xsd": "http://www.w3.org/2001/XMLSchema#"
+        },
+        "predictions": [
+          {
+            "prediction": 0.00208660262,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/1",
+              "label": "Goal 1",
+              "code": "1",
+              "name": "No poverty",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_1.png"
+            }
+          },
+          {
+            "prediction": 0.00747604249,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/2",
+              "label": "Goal 2",
+              "code": "2",
+              "name": "Zero hunger",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_2.png"
+            }
+          },
+          {
+            "prediction": 0.00219434709,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/3",
+              "label": "Goal 3",
+              "code": "3",
+              "name": "Good health and well-being",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_3.png"
+            }
+          },
+          {
+            "prediction": 0.0023183322,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/4",
+              "label": "Goal 4",
+              "code": "4",
+              "name": "Quality Education",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_4.png"
+            }
+          },
+          {
+            "prediction": 0.00143927732,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/5",
+              "label": "Goal 5",
+              "code": "5",
+              "name": "Gender equality",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_5.png"
+            }
+          },
+          {
+            "prediction": 0.00520646945,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/6",
+              "label": "Goal 6",
+              "code": "6",
+              "name": "Clean water and sanitation",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_6.png"
+            }
+          },
+          {
+            "prediction": 0.00357353222,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/7",
+              "label": "Goal 7",
+              "code": "7",
+              "name": "Affordable and clean energy",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_7.png"
+            }
+          },
+          {
+            "prediction": 0.0025271296,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/8",
+              "label": "Goal 8",
+              "code": "8",
+              "name": "Decent work and economic growth",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_8.png"
+            }
+          },
+          {
+            "prediction": 0.00248553581,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/9",
+              "label": "Goal 9",
+              "code": "9",
+              "name": "Industry, innovation and infrastructure",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_9.png"
+            }
+          },
+          {
+            "prediction": 0.00153012422,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/10",
+              "label": "Goal 10",
+              "code": "10",
+              "name": "Reduced inequalities",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_10.png"
+            }
+          },
+          {
+            "prediction": 0.0048221685,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/11",
+              "label": "Goal 11",
+              "code": "11",
+              "name": "Sustainable cities and communities",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_11.png"
+            }
+          },
+          {
+            "prediction": 0.0118344035,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/12",
+              "label": "Goal 12",
+              "code": "12",
+              "name": "Responsible consumption and production",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_12.png"
+            }
+          },
+          {
+            "prediction": 0.00446031475,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/13",
+              "label": "Goal 13",
+              "code": "13",
+              "name": "Climate action",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_13.png"
+            }
+          },
+          {
+            "prediction": 0.00777011132,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/14",
+              "label": "Goal 14",
+              "code": "14",
+              "name": "Life below water",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_14.png"
+            }
+          },
+          {
+            "prediction": 0.937378228,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/15",
+              "label": "Goal 15",
+              "code": "15",
+              "name": "Life in Land",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_15.png"
+            }
+          },
+          {
+            "prediction": 0.00289727864,
+            "sdg": {
+              "@type": "sdg",
+              "id": "http://metadata.un.org/sdg/16",
+              "label": "Goal 16",
+              "code": "16",
+              "name": "Peace, Justice and strong institutions",
+              "type": "Goal",
+              "icon": "https://aurora-sdg-classifier.uni-due.de/resources/sdg_icon_16.png"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
